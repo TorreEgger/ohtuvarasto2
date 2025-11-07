@@ -4,7 +4,7 @@ from statistics_service import StatisticsService
 from player_reader import PlayerReader
 
 def main():
-    url = "https://studies.cs.helsinki.fi/nhlstats/2022-23/players.txt"
+    url = "https://raw.githubusercontent.com/ohjelmistotuotanto-jyu/tehtavat/refs/heads/main/osa2/stats/players-23-24.txt"
     reader = PlayerReader(url)
     stats = StatisticsService(reader)
     philadelphia_flyers_players = stats.team("PHI")
