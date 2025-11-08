@@ -1,3 +1,5 @@
+#!!HUOM!! tehty copilotilla
+
 class Project:
     def __init__(self, name, description, project_license, authors, dependencies, dev_dependencies):
         self.name = name
