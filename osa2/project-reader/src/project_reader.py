@@ -21,6 +21,8 @@ class ProjectReader:
         #print(data["tool"]["poetry"]["name"])
         #print(data["tool"]["poetry"].get("description", "-"))
         #print(list(data["tool"]["poetry"]["dependencies"].keys()))
+        #print(data["tool"]["poetry"]["license"])
+        #print(data["tool"]["poetry"]["authors"])
         #print(list(data["tool"]["poetry"]["group"]["dev"]["dependencies"].keys()))
         name = data["tool"]["poetry"]["name"]
         description = data["tool"]["poetry"].get("description", "-")
