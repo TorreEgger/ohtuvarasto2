@@ -1,4 +1,5 @@
 #!!HUOM!! tehty copilotilla
+# sopiva kirjasto löytyi myöskin sillä
 
 from urllib import request
 import tomli
